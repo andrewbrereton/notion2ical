@@ -1,0 +1,32 @@
+{
+    "name": "andrewbrereton/notion2ical",
+    "description": "A small script that, when called, will interrogate a Notion database and return all of the items in ical format.\n\n",
+    "keywords": ["php", "notion", "ical"],
+    "license": "MIT",
+    "homepage": "https://github.com/andrewbrereton/notion2ical",
+    "authors": [
+        {
+            "name": "Andrew Brereton"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.4",
+        "knplabs/github-api": "^3.6",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.1"
+        },
+        "sort-packages": true
+    },
+    "scripts": {
+        "notion2ical": "php src/notion2ical.php"
+    }
+}
