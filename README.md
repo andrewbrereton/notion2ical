@@ -23,7 +23,7 @@ Here is a screenshot of my calendar app showing the calendar that was generated 
 
 I wrote this using PHP 8.1. It would probably work with PHP 8.0, I'm not sure.
 
-You need to have (Composer)[https://getcomposer.org/download/] installed.
+You need to have [Composer](https://getcomposer.org/download/) installed.
 
 ## How to use it
 
