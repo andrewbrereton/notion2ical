@@ -1,7 +1,7 @@
 {
     "name": "andrewbrereton/notion2ical",
     "description": "A small script that, when called, will interrogate a Notion database and return all of the items in ical format.\n\n",
-    "keywords": ["php", "notion", "ical"],
+    "keywords": ["notion", "ical", "calendar", "todo"],
     "license": "MIT",
     "homepage": "https://github.com/andrewbrereton/notion2ical",
     "authors": [
