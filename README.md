@@ -7,7 +7,7 @@ This allows you to add an iCal calendar to your regular Calendar app (Google, Ap
 My Notion database is a Kanban board. The properties that are important to this script are:
 
 * `Title` is the title of the task and is used for the title of the event.
-* `Status` is a select property and the important values are "Doing" and "Done". These determine if they should be included in the calender, and if they should show an empty checkbox (Doing) or a checked checkbox (Done).
+* `Status` is a select property and the important values are "Doing", "Done" and "Not Doing". These determine if they should be included in the calendar, and if they should show an empty checkbox (🔲 Doing), a checked checkbox (✅ Done), or a red cross (❌ Not Doing).
 * `When` is a date property and is used to determine the day.
 * `Tags` is a multi-select property and a way to add hashtags to the end of the event.
 
