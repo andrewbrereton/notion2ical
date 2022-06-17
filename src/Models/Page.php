@@ -32,7 +32,11 @@ TEMPLATE;
         public string $googleCalendarEventId
     )
     {
-        $this->statusEmoji = strtolower($this->status) === 'done' ? '✅' : '🔲';
+        $this->statusEmoji = match (strtolower($this->status)) {
+            'done' => '✅',
+            'not doing' => '❌',
+            default => '🔲',
+        };
 
         $this->title = $this->statusEmoji . ' ' . $title . ' ' . $this->tags;
     }
