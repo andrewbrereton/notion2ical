@@ -1,4 +1,4 @@
-FROM php:8.1-fpm-alpine
+FROM php:8.4.13RC1-fpm-alpine
 
 LABEL org.label-schema.schema-version="1.0"
 LABEL org.label-schema.name="notion2ical"
